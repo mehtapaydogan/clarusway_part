@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebf2f3;
+    background-image: linear-gradient(90deg, #8ac8c9 0%, #d38dd5 100%);
+    
+    
+}
+h1{
+    font-family: 'Rubik Vinyl', cursive;
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.card{
+    width: 85%;
+    height: 284px;
+    background-color: #82a0a1;
+    background-image: linear-gradient(90deg, #8be4e6 0%, #a277a3 100%);
+    margin-left: 6rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.card:hover{
+    height: 320px;
+}
+img{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+img:hover{
+    width: 450px;
+    height: 280px;
+    
+}
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #cb76c1;
+    position: relative;
+    top: 0.7rem;
+   
+}
+input{
+    width: 7rem;
+    height: 2.4rem;
+    border-radius: 40px;
+    border: none;
+    background-color: #f3a386;
+    color: white;
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 2rem;
+
+}
+input:hover{
+    width: 8rem;
+    height: 3.3rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    text-indent: 2rem;
+    position: relative;
+    top: 10px;
+    color: white;
+} 
